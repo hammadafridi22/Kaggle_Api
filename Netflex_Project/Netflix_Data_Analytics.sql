@@ -2,7 +2,7 @@ select * from netflix_raw
 where show_id='s5023';
 
 --handling foreign characters
-
+select * from df_order
 --remove duplicates 
 select show_id,COUNT(*) 
 from netflix_raw
